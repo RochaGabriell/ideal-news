@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Description
+
+Desenvolva a página do curso de Análise e Desenvolvimento de Sistemas (ADS) usando Next.js. Nessa, será necessário integrar a exibição de notícias relacionadas a tecnologia de fontes externas, criar seções para notícias internas, apresentar informações sobre o corpo docente, destacar a representante dos alunos, incluir um formulário de contato para sugestões e/ou reclamações, informações sobre as turmas, estudantes que estão trabalhando no mercado, além de outros elementos relevantes. 
+
+Para esse pequeno projeto, será preciso fornecer dois links: um para acessar a página final hospedada e outro que contenha os códigos-fonte do projeto.
+
 ## Getting Started
 
 First, run the development server:

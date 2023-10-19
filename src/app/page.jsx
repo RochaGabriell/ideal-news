@@ -1,7 +1,13 @@
-export default function Home() {
+'use client'
+
+import Base from './base/page'
+
+const Home = ({ children = <Base /> }) => {
   return (
     <>
-      <h1>Olá mundo!</h1>
+      <main>{children}</main>
     </>
   )
 }
+
+export default Home

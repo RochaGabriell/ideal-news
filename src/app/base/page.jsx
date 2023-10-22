@@ -54,7 +54,7 @@ const Base = () => {
         <Main>
           {error && <p>Error: {error}</p>}
           {loading && <FillingBottle color="#e60000" duration="4s" />}
-          {data.articles?.map((article, index) => (
+          {data?.articles?.map((article, index) => (
             <NewsCard key={index} article={article} />
           ))}
         </Main>

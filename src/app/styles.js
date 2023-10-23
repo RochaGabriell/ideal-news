@@ -52,4 +52,28 @@ const Title = styled.h1`
   text-align: center;
 `
 
-export { ContainerWrapper, Container, Main, Title }
+const NavLinks = styled.ul`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 0 1rem;
+
+  li {
+    list-style: none;
+    padding: 5px;
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+
+    a:hover {
+      color: #ff0000;
+    }
+  }
+`
+
+export { ContainerWrapper, Container, Main, Title, NavLinks }

@@ -11,4 +11,4 @@ const ErroDiv = styled.div`
   width: 100%;
 `
 
-export default ErroDiv
+export { ErroDiv }

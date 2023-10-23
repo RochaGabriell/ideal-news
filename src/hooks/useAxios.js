@@ -10,6 +10,7 @@ function useAxios(url) {
   useEffect(() => {
     if (!url) {
       setData([])
+      setError(null)
       setLoading(false)
       return
     }

@@ -20,6 +20,7 @@ const Base = ({ children = <Home /> }) => {
       }
     }
   }, [])
+
   const links = [
     {
       href: '/',
@@ -34,6 +35,7 @@ const Base = ({ children = <Home /> }) => {
       name: 'Contato'
     }
   ]
+
   return (
     <ContainerWrapper>
       <Container>

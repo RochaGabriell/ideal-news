@@ -1,20 +1,25 @@
 'use client'
+import React from 'react'
 
-import Base from './base/page'
-import styled from 'styled-components'
+import Header from '@/components/Header'
+import Aside from '@/components/Aside'
+import Home from './Home/page'
 
-const Main = styled.main`
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-`
+import { ContainerWrapper, Container, Main, Title } from './styles'
 
-const Home = ({ children = <Base /> }) => {
+const Base = ({ children = <Home /> }) => {
   return (
-    <>
-      <Main>{children}</Main>
-    </>
+    <ContainerWrapper>
+      <Container>
+        <Header />
+        <Main>
+          <Title>TECNOLOGIA</Title>
+          {children}
+        </Main>
+        <Aside />
+      </Container>
+    </ContainerWrapper>
   )
 }
 
-export default Home
+export default Base

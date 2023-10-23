@@ -13,10 +13,10 @@ const Card = styled.div`
   width: 100%;
   max-width: 30rem;
   max-height: 35rem;
+  transition: all 0.7s ease-in-out;
 
   &:hover {
-    transition: all 0.5s ease-in-out;
-    background-color: #acf0e8;
+    transform: scale(1.05);
   }
 `
 

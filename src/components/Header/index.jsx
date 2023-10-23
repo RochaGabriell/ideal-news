@@ -1,22 +1,14 @@
 import React from 'react'
-import styled from 'styled-components'
+import { Divide as Hamburger } from 'hamburger-react'
 
-const Container = styled.header`
-  background-color: #e60000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 4rem;
-  padding: 1rem;
-  grid-column: 1 / 5;
-  grid-row: 1 / 2;
-`
+import { Container, InputSearch } from './styles'
 
 const Header = () => {
   return (
     <Container>
-      <h1>News</h1>
-      <input type="text" placeholder="Search" />
+      <Hamburger />
+      <h1>Ideal News</h1>
+      <InputSearch type="text" placeholder="Search" />
     </Container>
   )
 }
